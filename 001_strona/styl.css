@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vH;
+    
+    background-image: url(pexels-felix-mittermeier-956999.jpg);
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.conteiner {
+    background-color: #b4adadab;
+    width: 80%;
+    padding: 15px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #fff;
+    color: rgb(37, 46, 52)
+}
+#header {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+#text-area {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: center;
+}
+button {
+    background-color: #262626;
+    color:#fff;
+    font-size: 1.3 rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}

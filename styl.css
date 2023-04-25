@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav {
+    
+    background-color: #ccc;
+    text-align: right;
+    padding: 5px;
+}
+nav ul li a,
+footer p {
+    color: white; 
+    text-decoration: none;
+    }
+nav ul li a:hover {
+        color: #111; 
+        
+        }
+footer {
+    text-align: center;
+    background-color: #ccc;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+}
+ol {
+    margin-top: 10px;
+}
+ol li{
+    margin-left: 50px;
+}
+ol li a {
+    text-decoration: none;
+}
+/* Obramowanie */
+div.box {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+}
+#obr1 {
+    border: 1px solid red;
+}
+
+#obr2 {
+    border: 5px solid pink;
+
+}
+
+#obr3 {
+    border: 5px dotted black;
+}
+
+#obr4 {
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+#obr5 {
+    border-left: 5px solid black;
+    border-top: 10px dotted yellowgreen;
+}
+
+/*Tła */
+
+#tlo1 {
+    background-color: aquamarine;
+}
+#tlo2 {
+    background-image: url(img/butterfly-ge6de6e870_1920.jpg);
+    background-color: #eeeeee;
+    background-size: 100%;
+    text-align: center;
+    line-height: 200px;
+    font-weight: 500;
+    font-size: 24px;
+    color:white;
+}
+#tlo3 {
+    background-image: linear-gradient(pink,gray);
+    
+    
+}
+
+#tlo4 {
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+    border-radius: 100%;
+    width: 200px;
+}
+
