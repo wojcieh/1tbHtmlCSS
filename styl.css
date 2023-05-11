@@ -93,4 +93,30 @@ div.box {
     border-radius: 100%;
     width: 200px;
 }
+/* Tabele */
+table, tr, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 40px auto;
+    width: 75%;
+    
+}
+
+th {
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: burlywood;
+}
+tr:hover{
+    background-color: red;
+}
+td:hover{
+    background-color: green;
+}
+
 
